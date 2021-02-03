@@ -2,20 +2,20 @@ package boardgame;
 
 public class Position {
 	
-	private Integer raw;
+	private Integer row;
 	private Integer column;
 	
-	public Position(Integer raw, Integer column) {
-		this.raw = raw;
+	public Position(Integer row, Integer column) {
+		this.row = row;
 		this.column = column;
 	}
 
-	public Integer getRaw() {
-		return raw;
+	public Integer getRow() {
+		return row;
 	}
 
-	public void setRaw(Integer raw) {
-		this.raw = raw;
+	public void setRow(Integer row) {
+		this.row = row;
 	}
 
 	public Integer getColumn() {
@@ -29,7 +29,7 @@ public class Position {
 	
 	@Override
 	public String toString() {
-		return raw + ", " + column;
+		return row + ", " + column;
 	}
 	
 
